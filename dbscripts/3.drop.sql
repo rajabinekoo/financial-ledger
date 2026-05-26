@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS journal_entry_lines;
+DROP TABLE IF EXISTS journal_entries;
+DROP TABLE IF EXISTS journal_entry_type_assets;
+DROP TABLE IF EXISTS account_balances;
+DROP TABLE IF EXISTS ledger_projection_state;
+DROP TABLE IF EXISTS ledger_accounts;
+DROP FUNCTION IF EXISTS immutable_prevention();
+DROP FUNCTION IF EXISTS validate_entry_has_multiple_lines();
+DROP FUNCTION IF EXISTS validate_entry_balanced();
+DROP FUNCTION IF EXISTS validate_entry_assets();
+DROP TYPE IF EXISTS asset_type;
+DROP TYPE IF EXISTS account_type;
+DROP TYPE IF EXISTS journal_entry_type;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/f274fe0c-ca48-4803-8ffd-0b568a5eeff8/console.sql" value="f274fe0c-ca48-4803-8ffd-0b568a5eeff8" />
+    <file url="file://$PROJECT_DIR$/1.init.sql" value="f274fe0c-ca48-4803-8ffd-0b568a5eeff8" />
+    <file url="file://$PROJECT_DIR$/2.accounts.sql" value="f274fe0c-ca48-4803-8ffd-0b568a5eeff8" />
+    <file url="file://$PROJECT_DIR$/3.drop.sql" value="f274fe0c-ca48-4803-8ffd-0b568a5eeff8" />
+    <file url="file://$PROJECT_DIR$/dataset/1.journal.sql" value="f274fe0c-ca48-4803-8ffd-0b568a5eeff8" />
+  </component>
+</project>
