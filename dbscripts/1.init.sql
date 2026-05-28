@@ -82,6 +82,17 @@ INSERT INTO ledger_projection_state (id, last_processed_sequence, last_committed
 VALUES (TRUE, 0, 0)
 ON CONFLICT (id) DO NOTHING;
 
+CREATE TABLE block_builder_state
+(
+    id                      BOOLEAN PRIMARY KEY DEFAULT TRUE,
+    last_processed_sequence BIGINT NOT NULL     DEFAULT 0,
+    last_committed_sequence BIGINT NOT NULL     DEFAULT 0
+);
+
+INSERT INTO block_builder_state (id, last_processed_sequence, last_committed_sequence)
+VALUES (TRUE, 0, 0)
+ON CONFLICT (id) DO NOTHING;
+
 CREATE INDEX idx_journal_entries_type
     ON journal_entries (type);
 
